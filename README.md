@@ -27,7 +27,7 @@ The Weather Monitoring Application allows users to view real-time weather data f
 ## **2. Design Choices**
 
 1. **Django Framework:** The application uses Django for its robustness, scalability, and ease of integrating with databases and external APIs.
-2. **PostgreSQL Database:** The choice of PostgreSQL was made due to its reliability and extensive feature set that supports complex queries, which are useful for fetching historical weather data.
+2. **SQLite Database:** The choice of SQLite was made due to its reliability and extensive feature set that supports complex queries, which are useful for fetching historical weather data.
 3. **Chart.js Library:** Chart.js is used for rendering interactive and responsive charts to visualize weather trends. It is lightweight and integrates well with JavaScript.
 4. **Docker:** Docker containers are used to package the application and its dependencies, ensuring consistency across different environments (development, testing, and production).
 5. **Logging System:** Python's logging library is used for monitoring and debugging purposes. Logs capture threshold breaches and application errors.
