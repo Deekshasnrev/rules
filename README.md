@@ -12,16 +12,6 @@ This application fetches weather data for specified cities from the OpenWeatherM
 2. [Design Choices](#design-choices)
 3. [Dependencies](#dependencies)
 4. [Installation and Setup](#installation-and-setup)
-    - [Setting up the Environment](#setting-up-the-environment)
-    - [Database Setup](#database-setup)
-    - [Docker Setup](#docker-setup)
-    - [API Key Setup](#api-key-setup)
-5. [Running the Application](#running-the-application)
-6. [Alerting System](#alerting-system)
-7. [Testing and Debugging](#testing-and-debugging)
-8. [Deployment](#deployment)
-9. [Troubleshooting](#troubleshooting)
-
 ---
 
 ## **1. Overview**
@@ -74,5 +64,5 @@ Before running the application, ensure the following dependencies are installed:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/weather-monitoring-app.git
+   git clone https://github.com/Deekshasnrev/weather-monitor.git
    cd weather-monitoring-app
