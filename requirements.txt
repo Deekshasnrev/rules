@@ -1,0 +1,22 @@
+# Backend dependencies
+Django>=4.0
+requests>=2.26
+psycopg2>=2.9  # PostgreSQL adapter for Python
+python-dotenv>=0.19  # For managing environment variables
+pytz>=2021.1  # Time zone support in Django
+
+# Frontend dependencies (for Bootstrap and Chart.js integration)
+django-bootstrap4>=22.1  # For Bootstrap integration with Django
+django-chartjs>=2.0  # To integrate Chart.js with Django
+
+# Development and testing tools
+pytest>=6.2  # For running tests
+pytest-django>=4.4  # Django integration with pytest
+flake8>=3.9  # For linting and code style checks
+coverage>=5.5  # For test coverage reporting
+
+# Docker support dependencies
+gunicorn>=20.1  # Production WSGI server for serving the Django application
+
+# Miscellaneous libraries
+collections-extended>=1.0  # For advanced dictionary utilities (optional)
