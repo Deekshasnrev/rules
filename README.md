@@ -67,6 +67,13 @@ Before running the application, ensure the following dependencies are installed:
    ```bash
    git clone https://github.com/Deekshasnrev/rules.git
    cd rules
+   cd rule_engine
+
+2.  **Make sure the manage.py file is present there , otherwise go that folder**
+3.  **Start the server**
+    ```bash
+    python manage.py runserver
+ 4. **Go thr link which comes Eg:'http://127.0.0.1:8000/'**
 
 ## Guide
 
